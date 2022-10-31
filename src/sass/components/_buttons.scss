@@ -1,0 +1,94 @@
+@use "../themes/discovery" as *;
+@use "../globals/utilities" as *;
+
+
+$btn-padding-x: 2.25rem;
+$btn-padding-y: 1.25rem;
+
+
+.primary-btn-large {
+
+   // global
+
+   display: inline-block;
+   height: $large-btn;
+   padding: 0 $large-btn;
+   color: $primary-btn-text-color;
+   transition: all .33s ease;
+
+   // background
+
+   background-image: radial-gradient(circle, $primary-dark .25%, $primary-vivid .25%);
+   background-position: center;
+   background-size: 100%;
+
+   // CTA
+
+   font-family: $base-font;
+   font-size: 1.125rem;
+   line-height: 1;
+   font-weight: 500;
+   letter-spacing: .5px;
+
+   // border
+
+   border: none;
+   border-radius: $large-btn-corners;
+   box-shadow: 0 .5rem 1.25rem -.5rem $neutral-grey-60, 0 0 0 .125rem $neutral-white inset;
+
+   // states
+
+   &:hover {
+      background-size: 45000%;
+   }
+
+   &:active {
+      transform: scale(.925);
+      box-shadow: 0 0 .125rem 0 $neutral-grey-74, 0 0 0 .125rem $neutral-white inset;
+   }
+
+}
+
+.nav-btn {
+
+   // global
+
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   gap: map-get($spacing, s-8);
+   height: $medium-btn;
+   padding: 0 map-get($spacing, s-8) 0 map-get($spacing, s-16);
+   color: $text-color;
+   transition: all .33s ease;
+
+   // background
+
+   background: $neutral-white;
+
+   // CTA
+
+   font-family: $base-font;
+   font-size: 1rem;
+   line-height: 1;
+   font-weight: 500;
+   letter-spacing: .35px;
+
+   // border
+
+   border: none;
+   border-radius: $medium-btn-corners;
+   box-shadow: 0 0 0 0 $neutral-grey-74, 0 0 0 .0625rem $neutral-grey-88 inset;
+
+   // states
+
+   &:hover {
+      box-shadow: 0 .35rem 1rem -.5rem $neutral-grey-74, 0 0 0 .0625rem $neutral-grey-60 inset;
+   }
+
+   &:active {
+      transform: scale(.925);
+      box-shadow: 0 0 0 0 $neutral-grey-74, 0 0 0 .0625rem $neutral-grey-60 inset;
+   }
+
+}

@@ -1,0 +1,53 @@
+@use "../globals/utilities" as *;
+
+// Colors
+
+$primary-deep: hsl(350, 70%, 23%);
+$primary-dark: hsl(350, 70%, 38%);
+$primary-vivid: hsl(350, 70%, 53%);
+$primary-light: hsl(350, 70%, 71%);
+$primary-pale: hsl(350, 70%, 88%);
+
+$secondary-deep: hsl(220, 80%, 23%);
+$secondary-dark: hsl(220, 80%, 39%);
+$secondary-vivid: hsl(220, 80%, 55%);
+$secondary-light: hsl(220, 80%, 72%);
+$secondary-pale: hsl(220, 80%, 88%);
+
+$tertiary-deep: hsl(45, 100%, 15%);
+$tertiary-dark: hsl(45, 100%, 30%);
+$tertiary-vivid: hsl(45, 100%, 45%);
+$tertiary-light: hsl(45, 100%, 67%);
+$tertiary-pale: hsl(45, 100%, 88%);
+
+$neutral-black: hsl(0, 0%, 0%);
+$neutral-grey-15: hsl(0, 0%, 15%);
+$neutral-grey-30: hsl(0, 0%, 30%);
+$neutral-grey-46: hsl(0, 0%, 46%);
+$neutral-grey-60: hsl(0, 0%, 60%);
+$neutral-grey-74: hsl(0, 0%, 74%);
+$neutral-grey-88: hsl(0, 0%, 88%);
+$neutral-grey-92: hsl(0, 0%, 92%);
+$neutral-grey-96: hsl(0, 0%, 96%);
+$neutral-white: hsl(0, 0%, 100%);
+
+$text-color: $neutral-grey-15;
+
+$primary-btn-text-color: $neutral-white;
+
+// Fonts
+
+$base-font: "Open Sans";
+$display-font: "Paytone One";
+
+// Button size
+
+$large-btn: map-get($btn-height, large);
+$medium-btn: map-get($btn-height, medium);
+$small-btn: map-get($btn-height, small);
+
+// Button corners
+
+$large-btn-corners: $large-btn * map-get($btn-radius, large);
+$medium-btn-corners: $medium-btn * map-get($btn-radius, large);
+$small-btn-corners: $small-btn * map-get($btn-radius, large);

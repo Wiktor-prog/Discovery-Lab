@@ -1,0 +1,45 @@
+$spacer: 1rem;
+
+$btn-height: 
+(
+   "large": $spacer * 3.5,
+   "medium": $spacer * 3,
+   "small": $spacer * 2.5,
+);
+
+$btn-radius: 
+(
+   "large": .5,
+   "medium": .25,
+   "small": .125,
+   "none": 0,
+);
+
+$spacing: 
+(
+   "s-0": 0,
+   "s-2": $spacer * .125,
+   "s-4": $spacer * .25,
+   "s-8": $spacer * .5,
+   "s-12": $spacer * .75,
+   "s-16": $spacer,
+   "s-20": $spacer * 1.25,
+   "s-24": $spacer * 1.5,
+   "s-32": $spacer * 2,
+   "s-40": $spacer * 2.5,
+   "s-48": $spacer * 3,
+   "s-64": $spacer * 4,
+   "s-96": $spacer * 6,
+   "s-128": $spacer * 8,
+   "s-256": $spacer * 16,
+);
+
+$grid-bp: 
+(
+   "xs": 0,
+   "s": 412px,
+   "s": 412px,
+   "s": 1024px,
+   "s": 1440px,
+   "s": 1920px,
+)

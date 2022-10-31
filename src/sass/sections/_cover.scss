@@ -1,0 +1,69 @@
+@use "../globals/utilities" as *;
+@use "../themes/discovery" as *;
+
+.cover-box 
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 100%;
+   height: calc(90vh - 5rem);
+   gap: map-get($spacing, s-32);
+   padding: map-get($spacing, s-64) map-get($spacing, s-64);
+   background: $secondary-pale;
+}
+
+.cover-content-left 
+{
+   display: flex;
+   flex-direction: column;
+   gap: map-get($spacing, s-64);
+   justify-content: center;
+   height: 100%;
+}
+
+.cover-content-right 
+{
+   width: 100%;
+   height: 100%;
+   background: $neutral-white;
+}
+
+.cover-copy
+{
+   display: flex;
+   flex-direction: column;
+   gap: map-get($spacing, s-32);
+}
+
+.cover-title 
+{
+   font-family: $display-font;
+   color: $neutral-black;
+   font-size: 4rem;
+   line-height: 1;
+   letter-spacing: -1px;
+}
+
+.body-large 
+{
+   font-family: $base-font;
+   color: $neutral-black;
+   font-size: 1.125rem;
+   font-weight: 500;
+   line-height: 1.5;
+}
+
+.btn-no-stretch
+{
+   margin: 0 auto 0 0;
+}
+
+.content-box-4
+{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   max-width: 100%;
+   height: calc(90vh - 5rem);
+   padding: map-get($spacing, s-64) 10%;
+   background: $secondary-pale;
+}

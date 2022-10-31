@@ -1,0 +1,87 @@
+$colors: (
+
+   "red" (
+      "deep": hsl(350, 70%, 23%),
+      "dark": hsl(350, 70%, 38%),
+      "vivid": hsl(350, 70%, 53%), // AA with BLACK and WHITE
+      "light": hsl(350, 70%, 71%),
+      "pale": hsl(350, 70%, 88%)
+   ),
+
+   "pink" (
+      "deep": hsl(310, 56%, 20%),
+      "dark": hsl(310, 56%, 35%),
+      "vivid": hsl(310, 56%, 50%), // AA with BLACK and WHITE
+      "light": hsl(310, 56%, 69%),
+      "pale": hsl(310, 56%, 88%)
+   ),
+
+   "violet" (
+      "deep": hsl(260, 61%, 21%),
+      "dark": hsl(260, 61%, 41%),
+      "vivid": hsl(260, 61%, 61%), // AA with BLACK and WHITE
+      "light": hsl(260, 61%, 75%),
+      "pale": hsl(260, 61%, 88%)
+   ),
+
+   "blue" (
+      "deep": hsl(220, 80%, 23%),
+      "dark": hsl(220, 80%, 39%),
+      "vivid": hsl(220, 80%, 55%), // AA with BLACK and WHITE
+      "light": hsl(220, 80%, 72%),
+      "pale": hsl(220, 80%, 88%)
+   ),
+
+   "azure" (
+      "deep": hsl(195, 80%, 22%),
+      "dark": hsl(195, 80%, 36%), // AA with BLACK and WHITE
+      "vivid": hsl(195, 80%, 50%),
+      "light": hsl(195, 80%, 69%),
+      "pale": hsl(195, 80%, 88%)
+   ),
+
+   "green" (
+      "deep": hsl(135, 60%, 20%),
+      "dark": hsl(135, 60%, 33%), // AA with BLACK and WHITE
+      "vivid": hsl(135, 60%, 46%),
+      "light": hsl(135, 60%, 67%),
+      "pale": hsl(135, 60%, 88%)
+   ),
+
+   "olive" (
+      "deep": hsl(70, 61%, 16%),
+      "dark": hsl(70, 61%, 31%), // AA with BLACK and WHITE
+      "vivid": hsl(70, 61%, 46%),
+      "light": hsl(70, 61%, 67%),
+      "pale": hsl(70, 61%, 88%)
+   ),
+
+   "yellow" (
+      "deep": hsl(45, 100%, 15%),
+      "dark": hsl(45, 100%, 30%), // AA with BLACK and WHITE
+      "vivid": hsl(45, 100%, 45%),
+      "light": hsl(45, 100%, 67%),
+      "pale": hsl(45, 100%, 88%)
+   ),
+
+   "orange" (
+      "deep": hsl(30, 90%, 21%),
+      "dark": hsl(30, 90%, 38%), // AA with BLACK and WHITE
+      "vivid": hsl(30, 90%, 55%),
+      "light": hsl(30, 90%, 71%),
+      "pale": hsl(30, 90%, 88%)
+   ),
+
+   "neutral" (
+      "black": hsl(0, 0%, 0%),
+      "grey-15": hsl(0, 0%, 15%),
+      "grey-30": hsl(0, 0%, 30%),
+      "grey-46": hsl(0, 0%, 46%),
+      "grey-60": hsl(0, 0%, 60%),
+      "grey-74": hsl(0, 0%, 74%),
+      "grey-88": hsl(0, 0%, 88%),
+      "grey-92": hsl(0, 0%, 92%),
+      "grey-96": hsl(0, 0%, 96%),
+      "white": hsl(0, 0%, 100%)
+   ),
+)

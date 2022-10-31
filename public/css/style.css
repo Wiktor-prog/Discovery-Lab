@@ -1,0 +1,20 @@
+/* Error: Duplicate key.
+ *    ,
+ * 40 |    "s": 412px,
+ *    |    === first key
+ * 41 |    "s": 412px,
+ *    |    ^^^ second key
+ *    '
+ *   src/sass/globals/_utilities.scss 41:4  @use
+ *   src/sass/style.scss 2:1                root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Duplicate key.\a    \2577 \a 40 \2502     "s": 412px,\a    \2502     \2501 \2501 \2501  first key\a 41 \2502     "s": 412px,\a    \2502     ^^^ second key\a    \2575 \a   src/sass/globals/_utilities.scss 41:4  @use\a   src/sass/style.scss 2:1                root stylesheet';
+}

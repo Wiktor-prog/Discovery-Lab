@@ -1,0 +1,43 @@
+@use "globals/colors" as *;
+@use "globals/utilities" as *;
+@use "components/buttons" as *;
+@use "components/main-nav" as *;
+@use "sections/cover" as *;
+
+*, *:before, *:after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+html
+{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overscroll-behavior: none;
+}
+
+.p-m-reset
+{
+   padding: 0;
+   margin: 0;
+}
+
+.container-demo 
+{
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-btn 
+{
+   display: flex;
+   justify-content: center;
+   gap: 3rem;
+}

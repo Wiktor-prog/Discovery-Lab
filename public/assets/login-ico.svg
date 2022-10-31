@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M5.0781,26.2816c-.0489-.294-.0781-.5617-.0781-.7816,0-1.3585,1.027-2.9613,4.4846-3.8405,1.6273,2.07,3.9276,3.3405,6.5154,3.3405s4.8881-1.2705,6.5154-3.3405c3.4575,.8791,4.4846,2.482,4.4846,3.8405,0,.2199-.0292,.4876-.078,.7816-2.7355,2.9048-6.617,4.7184-10.922,4.7184s-8.1864-1.8136-10.9219-4.7184Z" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M11,13c0,3.866,2.2386,7,5,7s5-3.134,5-7c0-2.7614-2.2386-5-5-5s-5,2.2386-5,5Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>
